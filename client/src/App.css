@@ -1,5 +1,21 @@
 .App {
   text-align: center;
+  margin-top: -1.5rem;
+  padding:2rem;
+  text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 0 -1px 0 #000,
+	0 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 0 0 #000,
+    -1px 0 0 #000; 
+    color:crimson;
+    letter-spacing: 2px;
+}
+
+.dark-mode{
+  background-color:	#303030;
+  padding:2rem;
+  text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 0 -1px 0 #000,
+	0 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 0 0 #000,
+  -1px 0 0 #000; 
+  color:white;
 }
 
 .App-logo {
