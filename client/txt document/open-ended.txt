@@ -1,0 +1,17 @@
+1.Why would you use class components over function components (removing hooks from the question)?
+
+Well taking hooks away from function components is like taking the lifecycle away from class components. If function components didn’t have hooks then I would use class component anytime I needed to set state or use a library like axios to request external data. Additionally I would use a class component anytime I need to update state, render data or change the user interface based on user interaction. 
+
+2.  Name three lifecycle methods and their purposes.
+
+-Constructor : is a method provided by the react component that allows you to set the initial state of the web application. Inside the constructor you call super which brings down all the other methods from the react component and makes them accessible inside that class component. 
+-rendert:  render is a method that renders all the jsx onto the user interface. When render is called it examines props and states and renders them to the screen. 
+-componentDidMount: this method is called right after the component is mounted, it allows us to render asynchronous  dynamic data from API or endpoint.
+
+3.  What is the purpose of a custom hook?
+
+The purpose of customer hooks is to  make reusable functions that can be implemented throughout  your project or even a different project entirely. Making a custom hook should result in DRY code for the developer. Additionally the component rendering all the information will contain less state logic directly inside of it . 
+
+4. Why is it important to test our apps?
+
+Testing our applications before sending them production is extremely important and crucial to  the web applications success.  Test an application helps us think about edge cases, surfaces bugs faster in our code, makes refactoring of code easier, is viewed as documentation and most importantly enables the developer to be confident in their code. 

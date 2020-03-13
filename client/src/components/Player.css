@@ -1,0 +1,12 @@
+.container{
+    box-shadow: 5px 5px 5px 5px crimson;
+    padding: 1rem;
+    margin:2rem;
+    width:40%;
+    border-radius: 10px;
+}
+.div-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
